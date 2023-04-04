@@ -234,7 +234,7 @@ const Cart = () => {
               name="Mohammed Shop"
               billingAddress
               shippingAddress
-              image="https://drive.google.com/uc?export=view&id=1wS2DHvRkbhmtkmDH2iXokN-5xxDWFIJ_"
+              image="https://firebasestorage.googleapis.com/v0/b/ecommerce-images-pr.appspot.com/o/images%2Fstripe-cart.png?alt=media&token=74814509-6771-4979-b069-515473ece805"
               description={`Your total amount is ${cart.totalPrice}`}
               token={onToken}
               stripeKey={stripeKey}

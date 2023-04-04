@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom"
 const Container = styled.div`
     width: 100vw;
     height: 100vh;
-    background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("/assets/images/login.jpg") center;
+    background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://firebasestorage.googleapis.com/v0/b/ecommerce-images-pr.appspot.com/o/images%2Flogin.jpg?alt=media&token=1e43a4a3-5593-452d-bcea-5270adb9c062") center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;

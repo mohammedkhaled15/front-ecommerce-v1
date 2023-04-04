@@ -32,25 +32,25 @@ export const sliderItems = [
 export const categories = [
   {
     id: 1,
-    img: "/assets/images/cat2.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/ecommerce-images-pr.appspot.com/o/images%2Fcat2.jpg?alt=media&token=3d1d1ea8-82c8-4131-8950-e1e30deffd16",
     title: "SHOES",
     cat: "shoes",
   },
   {
     id: 2,
-    img: "/assets/images/cat4.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/ecommerce-images-pr.appspot.com/o/images%2Fcat4.jpg?alt=media&token=75fe60df-63d3-4761-9614-9c46ad8806d1",
     title: "BAGS",
     cat: "bags",
   },
   {
     id: 3,
-    img: "/assets/images/cat3.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/ecommerce-images-pr.appspot.com/o/images%2Fcat3.jpg?alt=media&token=c9a2c2f3-c8a2-480e-b6f5-476ea7e62aa8",
     title: "DRESSES",
     cat: "dresses",
   },
   {
     id: 4,
-    img: "/assets/images/cat1.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/ecommerce-images-pr.appspot.com/o/images%2Fcat1.jpg?alt=media&token=ed2a9e1b-ba69-4e79-acd6-6daab207ae43",
     title: "SHIRTS",
     cat: "shirts",
   },
