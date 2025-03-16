@@ -8,12 +8,15 @@ import Success from "./pages/Success";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { useSelector } from "react-redux";
-
+import { Helmet } from "react-helmet-async";
 
 function App() {
   const user = useSelector((state) => state.user.currentUser);
   return (
     <div className="App">
+      <Helmet>
+        <title>Ecommerce Website</title>
+      </Helmet>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
