@@ -13,6 +13,7 @@ function App() {
   const user = useSelector((state) => state.user.currentUser);
   return (
     <div className="App">
+    <title>Ecommerce Website</title>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
