@@ -8,12 +8,15 @@ import Success from "./pages/Success";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { useSelector } from "react-redux";
+import ShowRenderedHTML from './ShowRenderedHTML.js';
 
 function App() {
   const user = useSelector((state) => state.user.currentUser);
   return (
     <div className="App">
-    <title>Ecommerce Website</title>
+    <ShowRenderedHTML>
+      <title>Ecommerce Website</title>
+    </ShowRenderedHTML>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
